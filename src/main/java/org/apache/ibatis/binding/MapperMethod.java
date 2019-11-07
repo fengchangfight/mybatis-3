@@ -44,6 +44,11 @@ import org.apache.ibatis.session.SqlSession;
  * @author Lasse Voss
  * @author Kazuki Shimizu
  */
+
+ /**
+  * fengchang comment:
+  逻辑上这个类代表着我们写的mapper文件中的方法到实际sql的一种映射
+  */
 public class MapperMethod {
 
   private final SqlCommand command;
